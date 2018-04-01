@@ -1,4 +1,4 @@
-# API
+# API2
 
 {% api-method method="post" host="http://google.com" path="/v1/cakes/:id" %}
 {% api-method-summary %}
