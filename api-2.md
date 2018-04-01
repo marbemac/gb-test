@@ -1,6 +1,10 @@
-# API4
+---
+description: wefwf
+---
 
-{% api-method method="post" host="http://google.com" path="/v1/cakes/:id" %}
+# API 2
+
+{% api-method method="get" host="https://api.cakes.com" path="/v1/cakes/:id" %}
 {% api-method-summary %}
 Get Cakes
 {% endapi-method-summary %}
@@ -12,10 +16,6 @@ This endpoint allows you to get free cakes.
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
-{% api-method-parameter name="" type="string" required=false %}
-
-{% endapi-method-parameter %}
-
 {% api-method-parameter name="id" type="string" %}
 ID of the cake to get, for free of course.
 {% endapi-method-parameter %}
@@ -62,16 +62,6 @@ Could not find a cake matching this query.
 {
     "message": "Ain't no cake like that."
 }
-```
-{% endapi-method-response-example %}
-
-{% api-method-response-example httpCode=500 %}
-{% api-method-response-example-description %}
-wefwef
-{% endapi-method-response-example-description %}
-
-```javascript
-
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}
