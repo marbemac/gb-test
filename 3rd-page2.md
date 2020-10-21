@@ -29,26 +29,20 @@ Your content goes here.
 * [ ] two
 * [ ] three
 
-{% code-tabs %}
-{% code-tabs-item title="foo.json" %}
 ```coffeescript
 oiwnef
 
 oiewf
 ```
-{% endcode-tabs-item %}
 
-{% code-tabs-item title=undefined %}
 ```c
 
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
 {% endtab %}
 {% endtabs %}
 
 | Foo | wef | we |  |
-| --- | --- | --- |
+| :--- | :--- | :--- | :--- |
 | wefwef | wef |  |  |
 |  |  | wef |  |
 
